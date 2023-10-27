@@ -47,7 +47,7 @@ MEM = {}
 LOGS.info(
     """
                         Auto Anime Bot
-                ©️ t.me/Auto_Anime_Xbot (github.com/kaif-00z)
+                ©️ t.me/Auto_Anime_Updates (github.com/kaif-00z)
                         v0.0.4 (original)
                              (2023)
                        [All Rigth Reserved]
