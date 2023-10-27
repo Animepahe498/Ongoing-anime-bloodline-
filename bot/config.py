@@ -25,15 +25,15 @@ class Var:
 
     # Database Credentials
 
-    REDIS_URI = config("REDIS_URI", default="https://redis-11976.c74.us-east-1-4.ec2.cloud.redislabs.com:11976")
-    REDIS_PASS = config("REDIS_PASSWORD", default="wqZTRNayJ6PMyMqsWCbgSVGVH0GKSW5B")
+    REDIS_URI = config("REDIS_URI", default="postgres://ztetbdld:uizq2b6c7ieyxQdVzqg-EW1SPpJWSonW@flora.db.elephantsql.com/ztetbdld")
+    REDIS_PASS = config("REDIS_PASSWORD", default="0")
 
     # Channels Ids
 
     BACKUP_CHANNEL = config("BACKUP_CHANNEL", default=0, cast=int)
     MAIN_CHANNEL = config("MAIN_CHANNEL", default="-1002100360610", cast=int)
-    LOG_CHANNEL = config("LOG_CHANNEL", default="-1002096389479", cast=int)
-    CLOUD_CHANNEL = config("CLOUD_CHANNEL", default="-1002096389479", cast=int)
+    LOG_CHANNEL = config("LOG_CHANNEL", default
+    CLOUD_CHANNEL = config("CLOUD_CHANNEL", default="-1002096389479", cast=
     OWNER = config("OWNER", default="5086525318", cast=int)
 
     # Other Configs
