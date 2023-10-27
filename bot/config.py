@@ -19,7 +19,7 @@ from decouple import config
 class Var:
     # Telegram Credentials
 
-    API_ID = config("API_ID", default=6, cast=23902408)
+    API_ID = config("API_ID", default=23902408, cast=int)
     API_HASH = config("API_HASH", default="6a36a4ef2f07d63aeba7b53b99c64d73")
     BOT_TOKEN = config("BOT_TOKEN", default="6784687538:AAHSHUFb-YIWpeQ52Y5A_ogRSHMbe-uJUas")
 
