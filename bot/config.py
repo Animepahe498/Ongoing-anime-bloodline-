@@ -25,8 +25,8 @@ class Var:
 
     # Database Credentials
 
-    REDIS_URI = config("REDIS_URI", default="postgres://ztetbdld:uizq2b6c7ieyxQdVzqg-EW1SPpJWSonW@flora.db.elephantsql.com/ztetbdld")
-    REDIS_PASS = config("REDIS_PASSWORD", default="0")
+    REDIS_URI = config("REDIS_URI", default="redis-10398.c283.us-east-1-4.ec2.cloud.redislabs.com:10398")
+    REDIS_PASS = config("REDIS_PASSWORD", default="HDWNzDMfwtnXM6Kq63UIgAquSH4fj5mw")
 
     # Channels Ids
 
