@@ -31,7 +31,7 @@ class Var:
     # Channels Ids
 
     BACKUP_CHANNEL = config("BACKUP_CHANNEL", default=0, cast=int)
-    MAIN_CHANNEL = config("MAIN_CHANNEL", cast=int)
+    MAIN_CHANNEL = config("MAIN_CHANNEL", cast=-1002100360610)
     LOG_CHANNEL = config("LOG_CHANNEL", default=0, cast=int)
     CLOUD_CHANNEL = config("CLOUD_CHANNEL", cast=int)
     OWNER = config("OWNER", default=0, cast=int)
