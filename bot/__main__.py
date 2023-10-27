@@ -60,7 +60,7 @@ async def _start(event):
             f"Hi {event.sender.first_name}\n**How Are You?**",
             buttons=[
                 [
-                    Button.url("Developer", url="t.me/NUMBER03ANURAG"),
+                    Button.url("Developer", url="t.me/RarelySukuna"),
                     Button.url("Repo", url="https://graph.org/file/8476fc3add0973cc95682.jpg"),
                 ]
             ],
@@ -192,7 +192,7 @@ async def upload(torrent_link, name, compress=False):
                     f"```New File Downloaded, Named {name}\nNow Going To Commpress```",
                     buttons=[[Button.inline("STATS", data=f"tas_{_code}")]],
                 )
-                cmd = f'''{Var.FFMPEG} -i """{dl}""" -metadata "Encoded By"="t.me/BENxENCODE" -preset ultrafast -c:v libx265 -crf 25 -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? """{out}""" -y'''
+                cmd = f'''{Var.FFMPEG} -i """{dl}""" -metadata "Encoded By"="t.me/RarelySukuna" -preset ultrafast -c:v libx265 -crf 25 -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? """{out}""" -y'''
                 process = await asyncio.create_subprocess_shell(
                     cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
                 )
