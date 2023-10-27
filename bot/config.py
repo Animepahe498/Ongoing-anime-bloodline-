@@ -25,8 +25,8 @@ class Var:
 
     # Database Credentials
 
-    REDIS_URI = config("REDIS_URI", default=None)
-    REDIS_PASS = config("REDIS_PASSWORD", default=None)
+    REDIS_URI = config("REDIS_URI", default="redis-11728.c212.ap-south-1-1.ec2.cloud.redislabs.com:11728")
+    REDIS_PASS = config("REDIS_PASSWORD", default="7xx5EiQIjlhh5rqvivMCHRfG1D2bINPd")
 
     # Channels Ids
 
