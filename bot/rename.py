@@ -106,7 +106,7 @@ async def _rename(name, og=None):
             )
         if anime_name:
             return (
-                f"[BEN™] {(await get_english(anime_name))} [{data.get('video_resolution').replace('p', 'px264' if og else 'px265') or ''}].mkv".replace(
+                f"[SUKUNA™] {(await get_english(anime_name))} [{data.get('video_resolution').replace('p', 'px264' if og else 'px265') or ''}].mkv".replace(
                     "‘", ""
                 )
                 .replace("’", "")
